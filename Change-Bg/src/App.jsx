@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div className="w-full h-screen duration-200" style={{backgroundColor:color}}>
       <div className="fixed flex flex-wrap justify-center  bottom-16 inset-x-0 px-1 rounded">
-        <div className="flex flex-wrap justify-center text-slate-300 shadow-2xl bg-slate-300 px-3 py-2 gap-3 rounded-3xl">
+        <div className="flex flex-wrap justify-center text-white shadow-2xl from-transparent px-3 py-2 gap-3 rounded-3xl">
           <button onClick={()=>{setColor("violet")}}   className="outline-none px-4 py-1 rounded-full" style={{backgroundColor:"violet"}}>Violet</button>
           <button onClick={()=>{setColor("indigo")}} className="outline-none px-4 py-1 rounded-full" style={{backgroundColor:"indigo"}}>Indigo</button>
           <button onClick={()=>{setColor("blue")}}  className="outline-none px-4 py-1 rounded-full" style={{backgroundColor:"blue"}}>Blue</button>
