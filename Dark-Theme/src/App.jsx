@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const App = () => {
   // State to manage the main div's background color
   const [color, setColor] = useState('white');
-   
+    
   // Function to toggle the main div's background color between black and white
   const changeBg = () => {
     setColor((changeBgColor) => (changeBgColor === 'black' ? 'white' : 'black'));
